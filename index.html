@@ -3,36 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <title>KTXM Survey</title>
+
+<script>
+window.location.href = "https://script.google.com/macros/s/AKfycbxe-_ahvm3bCwt_Pn1ZIM9ozB2BKwOw8LE2HrLgg12yhvNZLGZGhwfwUvo9qB1k2hoc/exec";
+</script>
+
 </head>
 
 <body>
 
-<h2>Đăng ký khảo sát</h2>
-
-<form id="form">
-  <input name="name" placeholder="Tên" required>
-  <input name="phone" placeholder="SĐT" required>
-  <button type="submit">Gửi</button>
-</form>
-
-<script>
-
-const scriptURL = "https://script.google.com/macros/s/AKfycbxe-_ahvm3bCwt_Pn1ZIM9ozB2BKwOw8LE2HrLgg12yhvNZLGZGhwfwUvo9qB1k2hoc/exec";
-
-document.getElementById("form").addEventListener("submit", e => {
-
-  e.preventDefault();
-
-  fetch(scriptURL, {
-    method: "POST",
-    body: new FormData(e.target)
-  })
-  .then(() => alert("Gửi thành công"))
-  .catch(() => alert("Lỗi gửi dữ liệu"))
-
-});
-
-</script>
+<p>Redirecting...</p>
 
 </body>
 </html>
